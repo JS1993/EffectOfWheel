@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF917AEE1CCCFBF0009EE79F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF917AED1CCCFBF0009EE79F /* main.m */; };
+		CF917AF11CCCFBF0009EE79F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF917AF01CCCFBF0009EE79F /* AppDelegate.m */; };
+		CF917AF41CCCFBF0009EE79F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF917AF31CCCFBF0009EE79F /* ViewController.m */; };
+		CF917AF71CCCFBF0009EE79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF917AF51CCCFBF0009EE79F /* Main.storyboard */; };
+		CF917AFA1CCCFBF0009EE79F /* EffectOfWheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF917AF81CCCFBF0009EE79F /* EffectOfWheel.xcdatamodeld */; };
+		CF917AFC1CCCFBF0009EE79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF917AFB1CCCFBF0009EE79F /* Assets.xcassets */; };
+		CF917AFF1CCCFBF0009EE79F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF917AFD1CCCFBF0009EE79F /* LaunchScreen.storyboard */; };
+		CF917B0A1CCCFBF0009EE79F /* EffectOfWheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF917B091CCCFBF0009EE79F /* EffectOfWheelTests.m */; };
+		CF917B151CCCFBF0009EE79F /* EffectOfWheelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF917B141CCCFBF0009EE79F /* EffectOfWheelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF917B061CCCFBF0009EE79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF917AE11CCCFBF0009EE79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF917AE81CCCFBF0009EE79F;
+			remoteInfo = EffectOfWheel;
+		};
+		CF917B111CCCFBF0009EE79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF917AE11CCCFBF0009EE79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF917AE81CCCFBF0009EE79F;
+			remoteInfo = EffectOfWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF917AE91CCCFBF0009EE79F /* EffectOfWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EffectOfWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF917AED1CCCFBF0009EE79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF917AEF1CCCFBF0009EE79F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF917AF01CCCFBF0009EE79F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF917AF21CCCFBF0009EE79F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF917AF31CCCFBF0009EE79F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF917AF61CCCFBF0009EE79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF917AF91CCCFBF0009EE79F /* EffectOfWheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EffectOfWheel.xcdatamodel; sourceTree = "<group>"; };
+		CF917AFB1CCCFBF0009EE79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF917AFE1CCCFBF0009EE79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF917B001CCCFBF0009EE79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF917B051CCCFBF0009EE79F /* EffectOfWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectOfWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF917B091CCCFBF0009EE79F /* EffectOfWheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectOfWheelTests.m; sourceTree = "<group>"; };
+		CF917B0B1CCCFBF0009EE79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF917B101CCCFBF0009EE79F /* EffectOfWheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectOfWheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF917B141CCCFBF0009EE79F /* EffectOfWheelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectOfWheelUITests.m; sourceTree = "<group>"; };
+		CF917B161CCCFBF0009EE79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF917AE61CCCFBF0009EE79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF917B021CCCFBF0009EE79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF917B0D1CCCFBF0009EE79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF917AE01CCCFBF0009EE79F = {
+			isa = PBXGroup;
+			children = (
+				CF917AEB1CCCFBF0009EE79F /* EffectOfWheel */,
+				CF917B081CCCFBF0009EE79F /* EffectOfWheelTests */,
+				CF917B131CCCFBF0009EE79F /* EffectOfWheelUITests */,
+				CF917AEA1CCCFBF0009EE79F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF917AEA1CCCFBF0009EE79F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF917AE91CCCFBF0009EE79F /* EffectOfWheel.app */,
+				CF917B051CCCFBF0009EE79F /* EffectOfWheelTests.xctest */,
+				CF917B101CCCFBF0009EE79F /* EffectOfWheelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF917AEB1CCCFBF0009EE79F /* EffectOfWheel */ = {
+			isa = PBXGroup;
+			children = (
+				CF917AEF1CCCFBF0009EE79F /* AppDelegate.h */,
+				CF917AF01CCCFBF0009EE79F /* AppDelegate.m */,
+				CF917AF21CCCFBF0009EE79F /* ViewController.h */,
+				CF917AF31CCCFBF0009EE79F /* ViewController.m */,
+				CF917AF51CCCFBF0009EE79F /* Main.storyboard */,
+				CF917AFB1CCCFBF0009EE79F /* Assets.xcassets */,
+				CF917AFD1CCCFBF0009EE79F /* LaunchScreen.storyboard */,
+				CF917B001CCCFBF0009EE79F /* Info.plist */,
+				CF917AF81CCCFBF0009EE79F /* EffectOfWheel.xcdatamodeld */,
+				CF917AEC1CCCFBF0009EE79F /* Supporting Files */,
+			);
+			path = EffectOfWheel;
+			sourceTree = "<group>";
+		};
+		CF917AEC1CCCFBF0009EE79F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF917AED1CCCFBF0009EE79F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF917B081CCCFBF0009EE79F /* EffectOfWheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF917B091CCCFBF0009EE79F /* EffectOfWheelTests.m */,
+				CF917B0B1CCCFBF0009EE79F /* Info.plist */,
+			);
+			path = EffectOfWheelTests;
+			sourceTree = "<group>";
+		};
+		CF917B131CCCFBF0009EE79F /* EffectOfWheelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF917B141CCCFBF0009EE79F /* EffectOfWheelUITests.m */,
+				CF917B161CCCFBF0009EE79F /* Info.plist */,
+			);
+			path = EffectOfWheelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF917AE81CCCFBF0009EE79F /* EffectOfWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF917B191CCCFBF0009EE79F /* Build configuration list for PBXNativeTarget "EffectOfWheel" */;
+			buildPhases = (
+				CF917AE51CCCFBF0009EE79F /* Sources */,
+				CF917AE61CCCFBF0009EE79F /* Frameworks */,
+				CF917AE71CCCFBF0009EE79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EffectOfWheel;
+			productName = EffectOfWheel;
+			productReference = CF917AE91CCCFBF0009EE79F /* EffectOfWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF917B041CCCFBF0009EE79F /* EffectOfWheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF917B1C1CCCFBF0009EE79F /* Build configuration list for PBXNativeTarget "EffectOfWheelTests" */;
+			buildPhases = (
+				CF917B011CCCFBF0009EE79F /* Sources */,
+				CF917B021CCCFBF0009EE79F /* Frameworks */,
+				CF917B031CCCFBF0009EE79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF917B071CCCFBF0009EE79F /* PBXTargetDependency */,
+			);
+			name = EffectOfWheelTests;
+			productName = EffectOfWheelTests;
+			productReference = CF917B051CCCFBF0009EE79F /* EffectOfWheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF917B0F1CCCFBF0009EE79F /* EffectOfWheelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF917B1F1CCCFBF0009EE79F /* Build configuration list for PBXNativeTarget "EffectOfWheelUITests" */;
+			buildPhases = (
+				CF917B0C1CCCFBF0009EE79F /* Sources */,
+				CF917B0D1CCCFBF0009EE79F /* Frameworks */,
+				CF917B0E1CCCFBF0009EE79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF917B121CCCFBF0009EE79F /* PBXTargetDependency */,
+			);
+			name = EffectOfWheelUITests;
+			productName = EffectOfWheelUITests;
+			productReference = CF917B101CCCFBF0009EE79F /* EffectOfWheelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF917AE11CCCFBF0009EE79F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF917AE81CCCFBF0009EE79F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF917B041CCCFBF0009EE79F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF917AE81CCCFBF0009EE79F;
+					};
+					CF917B0F1CCCFBF0009EE79F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF917AE81CCCFBF0009EE79F;
+					};
+				};
+			};
+			buildConfigurationList = CF917AE41CCCFBF0009EE79F /* Build configuration list for PBXProject "EffectOfWheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF917AE01CCCFBF0009EE79F;
+			productRefGroup = CF917AEA1CCCFBF0009EE79F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF917AE81CCCFBF0009EE79F /* EffectOfWheel */,
+				CF917B041CCCFBF0009EE79F /* EffectOfWheelTests */,
+				CF917B0F1CCCFBF0009EE79F /* EffectOfWheelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF917AE71CCCFBF0009EE79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF917AFF1CCCFBF0009EE79F /* LaunchScreen.storyboard in Resources */,
+				CF917AFC1CCCFBF0009EE79F /* Assets.xcassets in Resources */,
+				CF917AF71CCCFBF0009EE79F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF917B031CCCFBF0009EE79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF917B0E1CCCFBF0009EE79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF917AE51CCCFBF0009EE79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF917AF41CCCFBF0009EE79F /* ViewController.m in Sources */,
+				CF917AFA1CCCFBF0009EE79F /* EffectOfWheel.xcdatamodeld in Sources */,
+				CF917AF11CCCFBF0009EE79F /* AppDelegate.m in Sources */,
+				CF917AEE1CCCFBF0009EE79F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF917B011CCCFBF0009EE79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF917B0A1CCCFBF0009EE79F /* EffectOfWheelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF917B0C1CCCFBF0009EE79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF917B151CCCFBF0009EE79F /* EffectOfWheelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF917B071CCCFBF0009EE79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF917AE81CCCFBF0009EE79F /* EffectOfWheel */;
+			targetProxy = CF917B061CCCFBF0009EE79F /* PBXContainerItemProxy */;
+		};
+		CF917B121CCCFBF0009EE79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF917AE81CCCFBF0009EE79F /* EffectOfWheel */;
+			targetProxy = CF917B111CCCFBF0009EE79F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF917AF51CCCFBF0009EE79F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF917AF61CCCFBF0009EE79F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF917AFD1CCCFBF0009EE79F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF917AFE1CCCFBF0009EE79F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF917B171CCCFBF0009EE79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF917B181CCCFBF0009EE79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF917B1A1CCCFBF0009EE79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EffectOfWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF917B1B1CCCFBF0009EE79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EffectOfWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF917B1D1CCCFBF0009EE79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EffectOfWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectOfWheel.app/EffectOfWheel";
+			};
+			name = Debug;
+		};
+		CF917B1E1CCCFBF0009EE79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EffectOfWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EffectOfWheel.app/EffectOfWheel";
+			};
+			name = Release;
+		};
+		CF917B201CCCFBF0009EE79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EffectOfWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EffectOfWheel;
+			};
+			name = Debug;
+		};
+		CF917B211CCCFBF0009EE79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EffectOfWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.EffectOfWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EffectOfWheel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF917AE41CCCFBF0009EE79F /* Build configuration list for PBXProject "EffectOfWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF917B171CCCFBF0009EE79F /* Debug */,
+				CF917B181CCCFBF0009EE79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF917B191CCCFBF0009EE79F /* Build configuration list for PBXNativeTarget "EffectOfWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF917B1A1CCCFBF0009EE79F /* Debug */,
+				CF917B1B1CCCFBF0009EE79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF917B1C1CCCFBF0009EE79F /* Build configuration list for PBXNativeTarget "EffectOfWheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF917B1D1CCCFBF0009EE79F /* Debug */,
+				CF917B1E1CCCFBF0009EE79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF917B1F1CCCFBF0009EE79F /* Build configuration list for PBXNativeTarget "EffectOfWheelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF917B201CCCFBF0009EE79F /* Debug */,
+				CF917B211CCCFBF0009EE79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF917AF81CCCFBF0009EE79F /* EffectOfWheel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF917AF91CCCFBF0009EE79F /* EffectOfWheel.xcdatamodel */,
+			);
+			currentVersion = CF917AF91CCCFBF0009EE79F /* EffectOfWheel.xcdatamodel */;
+			path = EffectOfWheel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF917AE11CCCFBF0009EE79F /* Project object */;
+}
